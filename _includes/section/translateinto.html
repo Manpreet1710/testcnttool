@@ -1,0 +1,63 @@
+{% assign keyName = page.translatein %}
+{% assign conversion = 'translate_data' %}
+{% assign test = site.data[conversion] %}
+{% assign dataArr = test[keyName] %}
+{% assign data = dataArr %}
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
+<script data-from="{{page.from}}"  data-to="{{page.to}}" src="/js/translation.js" ></script>
+<div class="container">
+    <div class="main">
+        <!-- <h1 class="col-md-12 text"> {{keyName}}</h1> -->
+        <!-- <h2 class="col-md-10 text2 text-center"> Best Online Sentence Translation </h2> -->
+        <div class="hr">
+            <hr class="hr-css" />
+        </div>
+        <div class="col-md-12 typing-main-div">
+            <div class="row">
+            </div>
+            {% assign lang = data[0].h1 | split: ' ' %}
+            <div class="row col-md-12 d-flex justify-content-center pos-relative">
+                <div class="col-md-6">
+                    <div>Enter sentence in {{lang[0] | downcase}} to be translated</div>
+                    <textarea id="input-string" placeholder="Type here in {{lang[0] | downcase }}" value="" rows=" 10"
+                        cols="30"></textarea>
+
+                </div>
+                <div class="col-md-6">
+                    <div>Output sentence in {{lang[2] | downcase}} will be shown here</div>
+                    <textarea id="output-string" value="" rows="10" cols="30"></textarea>
+
+                </div>
+            </div>
+            <div class="typing-btn d-flex justify-content-center">
+                <button onclick="getInputValue();" class="buttonClass ml-2">
+                    Translate
+                </button>
+                <button onclick="resetInputValue();" class="buttonClass ml-2">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="col-md-12 my-5">
+    <div>
+        <h2 class="sup-h2">Popular Sentence Translations</h2>
+        <ul class="sup-ul row col-md-12">
+            {% for post in site.pages %}
+            {% assign path = post.url | replace: "/","" %}
+            {% if post.url contains 'translation'%}
+            <li class="col-md-3 conver-list">
+                <a href="/{{path}}">
+                    {{ path | replace: "-"," " |capitalize}}
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>

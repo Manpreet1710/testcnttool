@@ -1,0 +1,64 @@
+---
+title: About Us
+description: We build tools for content writers to help them be more productive and efficient.
+resources_link_heading: Resources
+resources_link_one_text: Blog
+resources_link_one_link: '/blog'
+resources_link_two_text: Documentation
+resources_link_two_link: '#'
+resources_link_three_text: About us
+resources_link_three_link: '/about'
+resources_link_four_text: Contact us
+resources_link_four_link: '/contact'
+features_link_heading: Features
+facebook_link: facebook.com
+twitter_link: twitter.com
+dribbble_link: ''
+behance_link: ''
+
+terms_and_conditions_text: Terms and Conditions
+terms_and_conditions_link: '/terms-and-conditions'
+privacy_policy_text: Privacy Policy
+privacy_policy_link: '/privacy-policy'
+disclaimer_text: Disclaimer
+disclaimer_link: '/disclaimer'
+
+features:
+  - text: 'Paraphrasing tool'
+    link: '/paraphrasing-tool'
+  - text: 'German Paraphrase tool'
+    link: '/german-paraphrase-tool'
+  - text: 'Hindi Paraphrase tool'
+    link: '/hindi-paraphrase-tool'
+  - text: 'Russian Paraphrase tool'
+    link: '/russian-paraphrase-tool'
+  - text: 'Spanish Paraphrase tool'
+    link: '/spanish-paraphrase-tool'
+  - text: 'Transliteration tool'
+    link: '/english-to-hindi-typing'
+  - text: 'Word count tool'
+    link: '/word-count-tool'
+  - text: 'Character count tool'
+    link: '/character-count-tool'
+  - text: 'Sentence translation'
+    link: '/sentence-translation'
+  - text: 'Meta and title checker'
+    link: '/meta-and-title-checker'
+  - text: 'Random adjective generator'
+    link: '/random-adjective-generator'
+  - text: 'Text difference checker'
+    link: '/text-difference-checker'
+  - text: 'Random noun generator'
+    link: '/random-noun-generator'
+  - text: 'Random paragraph generator'
+    link: '/random-paragraph-generator'
+  - text: 'Random letter generator'
+    link: '/random-letter-generator'
+  - text: 'Random sentence generator'
+    link: '/random-sentence-generator'
+  - text: 'Serp simulator'
+    link: '/serp-simulator'
+  - text: 'Website word count'
+    link: '/website-word-count'
+  - text: 'Random word generator'
+    link: '/random-word-generator'

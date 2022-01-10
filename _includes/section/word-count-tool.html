@@ -1,0 +1,45 @@
+{% assign keyName = page.fileName %}
+{% assign language = page.language %}
+<!-- {{page.fileName}} -->
+
+
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+{%- if page.tool -%}
+{%- include Rating/structureddata.html -%}
+{%- endif -%}
+
+<div class="container">
+    <div class="main-heading">
+        <!-- <h1 class="col-md-10 text-left">Word Count Tool </h1> -->
+        <div class="col-md-12 col-lg-12" style="border-top: 7px solid rgba(0,0,0,.1);">
+            <div class="word-count-main">
+                <div class="word-count">
+                    <ul class="count-top-bar">
+                        <li class="borderStyle">
+                            <p>Words</p>
+                            <span id="wordCount">0</span>
+                        </li>
+                        <li class="borderStyle">
+                            <p>Characters</p>
+                            <span id="characterCount">0</span>
+                        </li>
+                        <li class="borderStyle">
+                            <p>Sentences</p>
+                            <span id="sentenceCount">0</span>
+                        </li>
+                        <li class="borderStyle">
+                            <p>Paragraphs</p>
+                            <span id="paragraphCount">0</span>
+                        </li>
+                    </ul>
+                    <label class="w-100">
+                        <textarea class="mt-3 counter-input" id="input-string"
+                            placeholder="Type or paste your text"></textarea>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/wordCounter.js"></script>

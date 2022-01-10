@@ -1,0 +1,73 @@
+---
+name: Contenttool
+title: Contenttool - Smartest tools for content professionals
+email: marketing@Contenttool.io
+address: 'Noida'
+phone: ''
+tagline: Contenttool - Smartest tools for content professionals
+description: Contenttools.io provides smartest tools for day to day usage by content professionals.
+baseurl: ''
+siteurl: https://contenttool.io
+alternateName: contenttool
+logo: /img/favicon.png
+permalink: /blog/:title
+theme: appscms-tools-theme
+url: https://Contenttool.io
+twitter_username: Contenttool
+github_username: Contenttool
+favicon: img/favicon.png
+paginate: '12'
+paginate_path: '/blog/page:num/'
+sass:
+  sass_dir: _sass
+  style: compressed
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+production_google_analytics: 'UA-179965937-6'
+development_google_analytics: ''
+disqus:
+  shortname: contenttool-io
+hero: product_fixed_image
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+getform_id:
+mailchimp:
+  user-id:
+  list-id:
+copyright_text: Copyright © 2020 All rights reserved to
+company_url: https://contenttool.io
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
+twitter:
+  username:
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image:
+social:
+  type:
+  name:
+  links:
+analytics:
+  provider: false
+  google:
+    tracking_id:
+    anonymize_ip:
+timezone:
+after: ruby hello.rb

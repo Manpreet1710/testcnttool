@@ -1,0 +1,304 @@
+{
+    "tools": [
+        {
+            "name": "english-to-swahili-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "hindi-paraphrase-tool",
+            "rating": "NaN",
+            "votes": 0
+        },
+        {
+            "name": "german-paraphrase-tool",
+            "rating": "NaN",
+            "votes": 0
+        },
+        {
+            "name": "filipino-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-amharic-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-farsi-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "italian-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "marathi-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-latin-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "russian-paraphrase-tool",
+            "rating": "NaN",
+            "votes": 0
+        },
+        {
+            "name": "japanese-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "paraphrasing-tool",
+            "rating": "5.00",
+            "votes": 4
+        },
+        {
+            "name": "latin-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-japanese-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "spanish-paraphrase-tool",
+            "rating": "NaN",
+            "votes": 0
+        },
+        {
+            "name": "english-to-tamil-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "arabic-to-english-sentence-translation",
+            "rating": "4.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-pinyin-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "kinyarwanda-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "spanish-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-hindi-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "malayalam-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-urdu-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "vietnamese-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-french-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "bengali-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-tagalog-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-gujarati-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-filipino-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "character-tool",
+            "rating": "5.00",
+            "votes": 2
+        },
+        {
+            "name": "english-to-german-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "gujarati-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "word-counter",
+            "rating": "5.00",
+            "votes": 2
+        },
+        {
+            "name": "german-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "tagalog-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-puerto-sentence-translation",
+            "rating": "3.00",
+            "votes": 1
+        },
+        {
+            "name": "hindi-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 2
+        },
+        {
+            "name": "tamil-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "puerto-to-english-sentence-translation",
+            "rating": "NaN",
+            "votes": 0
+        },
+        {
+            "name": "punjabi-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-arabic-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "pangungusap-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "swahili-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "amharic-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-telugu-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "french-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "pinyin-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-vietnamese-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "farsi-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-punjabi-sentence-translation",
+            "rating": "5.00",
+            "votes": 5
+        },
+        {
+            "name": "english-to-pangungusap-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-malayalam-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-italian-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-irish-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-marathi-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "urdu-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "irish-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-bengali-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        },
+        {
+            "name": "english-to-kinyarwanda-sentence-translation",
+            "rating": "5.00",
+            "votes": 2
+        },
+        {
+            "name": "kinyarwanda-to-english-sentence-translation",
+            "rating": "5.00",
+            "votes": 1
+        }
+    ]
+}

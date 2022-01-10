@@ -1,0 +1,33 @@
+
+{% assign keyName = page.translatein %}
+{% assign langName = page.langName %}
+{% assign language = page.language %}
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="/js/translator.js" data-language="{{page.language}}" ></script>
+<div class="container">
+    <div class="main">
+        <div class="hr">
+            <hr class="hr-css" />
+        </div>
+        <div class="col-md-12 typing-main-div">
+            <div class="row m-0">
+
+            </div>
+            <div class="row col-md-12 d-flex justify-content-center">
+                <div class="col-md-12 mb-3 pl-5">
+                    <p>Type in english and it will be transliterated to {{keyName}}</p>
+                    <textarea onkeyup="inputHandle()" class="mt-3 transliteration-input"
+                        id="input-string"></textarea>
+                    <div class=" d-flex justify-content-left">
+                        <button onclick="inputHandle('transliterateButton')" class="ml-2"
+                            style="font-size:14px; font-weight:normal; height:30px">
+                            transliterate
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

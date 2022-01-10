@@ -1,0 +1,27 @@
+---
+pricing_table_title: Plans & Pricing
+pricing_table_description: No credit card required. No risk. 3 months free trial !
+plan_starter_name: Pro
+plan_starter_tagline: ''
+plan_starter_price: "<span>$49</span>/mo"
+plan_starter_description: "<li> 10,000 MAU</li> <li>Online Content Management Platform</li>
+  <li>Translation Management System</li><li>Screenshots</li><li>Changelog</li><li>SDKs:
+  iOS, Android, React Native, Flutter, Unity, Xamarin</li><li>Email Support</li>"
+plan_starter_url: "#"
+plan_starter_btn_text: Get Started
+plan_standard_name: Team
+plan_standard_tagline: ''
+plan_standard_price: "<span>$399</span>/mo"
+plan_standard_description: "<li> 100,000 MAU</li> <li>Online Content Management Platform</li>
+  <li>Translation Management System</li><li>Screenshots</li><li>Changelog</li><li>SDKs:
+  iOS, Android, React Native, Flutter, Unity, Xamarin</li><li>Email Support</li>"
+plan_standard_url: "#"
+plan_standard_btn_text: Get Started
+plan_business_name: Enterprise
+plan_business_tagline: ''
+plan_business_price: "<span>$699+</span>/mo"
+plan_business_description: "<li> 300,000+ MAU</li> <li>Online Content Management Platform</li>
+  <li>Translation Management System</li><li>Screenshots</li><li>Changelog</li><li>SDKs:
+  iOS, Android, React Native, Flutter, Unity, Xamarin</li><li>Priority Support</li>"
+plan_business_url: "#"
+plan_business_btn_text: Get Started

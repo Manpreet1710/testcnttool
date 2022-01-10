@@ -1,0 +1,143 @@
+{
+  "logo": "/img/logo.png",
+  "heading": "",
+  "company": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Terms and conditions",
+      "url": "/terms-and-conditions"
+    },
+    {
+      "name": "Help",
+      "url": "/help"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    }
+  ],
+  "product": [
+    {
+      "name": "Paraphrasing tool",
+      "url": "/paraphrasing-tool"
+    },
+    {
+      "name": "German Paraphrase tool",
+      "url": "/german-paraphrase-tool"
+    },
+    {
+      "name": "Hindi Paraphrase tool",
+      "url": "/hindi-paraphrase-tool"
+    },
+    {
+      "name": "Russian Paraphrase tool",
+      "url": "/russian-paraphrase-tool"
+    },
+    {
+      "name": "Spanish Paraphrase tool",
+      "url": "/spanish-paraphrase-tool"
+    },
+    {
+      "name": "Transliteration tool",
+      "url": "/english-to-hindi-typing "
+    },
+    {
+      "name": "Word count tool",
+      "url": "/word-count-tool"
+    },
+    {
+      "name": "Character count tool",
+      "url": "/character-count-tool"
+    },
+    {
+      "name": "Sentence translation",
+      "url": "/sentence-translation"
+    },
+    {
+      "name": "Meta and title checker",
+      "url": "/meta-and-title-checker"
+    },
+    {
+      "name": "Random adjective generator",
+      "url": "/random-adjective-generator"
+    },
+    {
+      "name": "Text difference checker",
+      "url": "/text-difference-checker"
+    },
+    {
+      "name": "Random noun generator",
+      "url": "/random-noun-generator"
+    },
+    {
+      "name": "Random paragraph generator",
+      "url": "/random-paragraph-generator"
+    },
+    {
+      "name": "Random letter generator",
+      "url": "/random-letter-generator"
+    },
+    {
+      "name": "Random sentence generator",
+      "url": "/random-sentence-generator"
+    },
+    {
+      "name": "Serp simulator",
+      "url": "/serp-simulator"
+    },
+    {
+      "name": "Website word count",
+      "url": "/website-word-count"
+    },
+    {
+      "name": "Random word generator",
+      "url": "/random-word-generator"
+    }
+  ],
+  "networkSites": [],
+  "social": [
+    {
+      "logo": "/assets/facebook.svg",
+      "url": "/",
+      "title": "abc"
+    },
+    {
+      "logo": "/assets/youtube.svg",
+      "url": "/",
+      "title": "abc"
+    },
+    {
+      "logo": "/assets/instagram.svg",
+      "url": "/",
+      "title": "abc"
+    },
+    {
+      "logo": "/assets/linkdin.svg",
+      "url": "/",
+      "title": "abc"
+    },
+    {
+      "logo": "/assets/twitter.svg",
+      "url": "/",
+      "title": "abc"
+    }
+  ],
+  "messege": "Copyright © 2020 All rights reserved to Contenttool",
+  "legal": [
+    {
+      "name": "Terms and conditions",
+      "url": "/terms-and-conditions"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact"
+    }
+  ]
+}

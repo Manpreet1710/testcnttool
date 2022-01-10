@@ -1,0 +1,70 @@
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="/js/paraprashing.js" data-language="{{page.language}}" ></script>
+{% assign initialLanguage = page.language %}
+<div class="container">
+<div class="main">
+    <!-- <h1 class="col-md-12 text">{{keyName}}</h1> -->
+
+    <div class="hr">
+        <hr class="hr-css" />
+    </div>
+    <div class="col-md-12 typing-main-div">
+        <div class="row">
+
+        </div>
+        <div class="row col-md-12 d-flex justify-content-center">
+            <div class="col-md-6 mb-3">
+                <textarea class="mt-3 input-string" id="input-string" value=""></textarea>
+                <div class=" d-flex justify-content-left">
+                    <button class="ml-2" style="font-size:14px; 
+                        font-weight:normal; height:30px ; outline:none;
+                        border:none;" onclick="getInputValue();">
+                        Rewrite
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-bottom: 25px">
+                    <p class="float-left m-0 ml-3 mb-1 p-0 pb-1 px-3 copy-btn"
+                        onclick="clipboardHandler('paraphrase-output-1')">copy</p>
+                    <p style="font-size:14px" class="float-left m-0 p-0 pl-3 ">Option 1</p>
+                    <p class="float-right m-0 p-0 pr-3" id="tooltip-1" data-toggle="tooltip" data-placement="top"
+                        title="x out of y words are different from input">
+                        <small id="total-different-1">0</small> / <small id="total-input-words-1">0</small>
+                    </p>
+
+                </div>
+                <textarea id="paraphrase-output-1" class="paraphrase-output"></textarea>
+
+                <div>
+                    <div style="margin-bottom: 25px">
+                        <p class="float-left m-0 ml-3 mb-1 p-0 pb-1 px-3 copy-btn"
+                            onclick="clipboardHandler('paraphrase-output-2')">copy</p>
+                        <p style="font-size:14px" class="float-left m-0 p-0 pl-3 ">Option 2</p>
+                        <p class="float-right m-0 p-0 pr-3" id="tooltip-2" data-toggle="tooltip"
+                            data-placement="top" title="x out of y words are different from input">
+                            <small id="total-different-2">0</small> / <small id="total-input-words-2">0</small>
+
+                        </p>
+                    </div>
+                    <textarea id="paraphrase-output-2" class="paraphrase-output"></textarea>
+                </div>
+
+                <!-- <div>
+                        <div style="margin-bottom: 25px">
+                            <p class="float-left m-0 ml-3 mb-1 p-0 pb-1 px-3 copy-btn"
+                                onclick="clipboardHandler('paraphrase-output-3')">copy</p>
+                            <p style="font-size:14px" class="float-left m-0 p-0 pl-3 ">Option 3</p>
+                            <p class="float-right m-0 p-0 pr-3" id="tooltip-3" data-toggle="tooltip"
+                                data-placement="top" title="x out of y words are different from input">
+                                <small id="total-different-3">0</small> / <small id="total-input-words-3">0</small>
+
+                            </p>
+                        </div>
+                        <textarea id="paraphrase-output-3" class="paraphrase-output"></textarea>
+                    </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+</div>

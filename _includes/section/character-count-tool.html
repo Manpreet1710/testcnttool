@@ -1,0 +1,39 @@
+{% assign keyName = page.fileName %}
+{% assign language = page.language %}
+<!-- {{page.fileName}} -->
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script>
+    function inputHandle(event) {
+        let inputString = document.getElementById("input-string")
+        let characterCount = document.getElementById("character-count")
+        characterLength = inputString.value.length
+        if (characterLength <= 1) characterCount.innerText = `${characterLength} character`
+        else characterCount.innerText = `${characterLength} characters`
+    }
+</script>
+<div class="container">
+    <div class="main">
+        <!-- <h1 class="col-md-12 text">Character Count Tool </h1> -->
+
+        <div class="hr">
+            <hr class="hr-css" />
+        </div>
+        <div class="col-md-12 typing-main-div">
+            <div class="row">
+
+            </div>
+            <div class="row col-md-12 d-flex justify-content-center">
+                <div class="col-md-12 mb-3 pl-5">
+                    <p>Copy/paste or type text to count characters </p>
+                    <textarea onkeyup="inputHandle()" class="mt-3 counter-input" id="input-string"
+                        rows="10"></textarea>
+                    <div class=" d-flex " style="font-size:35px; font-weight:bold">
+                        <span id="character-count" class="ml-3">0 Character</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

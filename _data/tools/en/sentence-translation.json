@@ -1,0 +1,16 @@
+{
+    "Language": "English",
+    "htmlLangAtt": "en",
+    "h1": "List of translations",
+    "h2": "",
+    "TITLE": "Contenttool - Smartest tools for content professionals",
+    "META": "Count words in your copied text or as your type. Get instant and accurate results",
+    "keywords": "key1,key2,key3,key4",
+    "imgwidth": "40px",
+    "imgheight": "40px",
+    "imgalt": "altvalue",
+    "csscdns":[
+      "<link rel=\"stylesheet\" href=\"/css/file-upload.css\" />",
+      "<link rel=\"stylesheet\" href=\"/css/word-counter.css\" />"
+    ]
+  }

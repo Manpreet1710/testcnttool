@@ -1,0 +1,9 @@
+
+{%- if page.hero -%}
+    {%- assign hero = page.hero -%}
+{%- else -%}
+    {%- assign hero = site.hero -%}
+{%- endif -%}
+
+
+{% include hero/sass.html %}

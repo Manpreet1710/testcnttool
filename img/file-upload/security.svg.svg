@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.447" height="49.54" viewBox="0 0 38.447 49.54">
+  <g id="security" transform="translate(0 1.54)">
+    <path id="Combined-Shape" d="M5.873,12.057V22.884H28.152V12.057l0-.155A10.934,10.934,0,0,0,17.013,1.54,10.934,10.934,0,0,0,5.878,11.9Z" transform="translate(2.211 -1.54)" fill="none" stroke="#7b10ff" stroke-width="3.08" fill-rule="evenodd"/>
+    <rect id="Rectangle" width="38.447" height="33.896" rx="2.21" transform="translate(0 14.104)" fill="#7b10ff"/>
+    <path id="Combined-Shape-2" data-name="Combined-Shape" d="M12.549,25.111a3.579,3.579,0,1,1,2.86,0q0,.031,0,.063V30.02a1.217,1.217,0,0,1-1.217,1.217h-.43a1.217,1.217,0,0,1-1.217-1.217V25.174Q12.547,25.142,12.549,25.111Z" transform="translate(5.245 7.108)" fill="#fff"/>
+  </g>
+</svg>
